@@ -1,0 +1,19 @@
+{
+  "name": "test-map-react-cyces",
+  "version": "1.0.0",
+  "description": "first npm react package for using google map features by cyces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saran-73/test-map-react-cyces.git"
+  },
+  "author": "saran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saran-73/test-map-react-cyces/issues"
+  },
+  "homepage": "https://github.com/Saran-73/test-map-react-cyces#readme"
+}
