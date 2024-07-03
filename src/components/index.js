@@ -1,2 +1,2 @@
-import TestReactBtn from "./TestReactBtn";
-export default { TestReactBtn };
+import AppGoogleMap from "./AppGoogleMap";
+export default { AppGoogleMap };
