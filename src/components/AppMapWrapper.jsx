@@ -19,7 +19,7 @@ function AppMapWrapper({
     lng: defaultLong || -87.68396373226321,
   }
   return (
-    <Suspense fallback={<AppLoader />}>
+    <Suspense fallback={<div style={{display: 'flex', justifyContent:'center', alignItems:"center"}}>Loading</div>}>
       <GoogleMapApiLoader apiKey={GoogleMapApiKey} suspense>
         <GoogleMap
           onClick={onNormalClick}
