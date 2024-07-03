@@ -16,6 +16,7 @@ function AppGoogleMap({
   polygonCoordinates,
   googleMapProps,
   onNormalClick,
+  GoogleMapApiKey
 }) {
 //   const markers = data?.length > 0 ? data : []
   return (
@@ -26,6 +27,7 @@ function AppGoogleMap({
         defaultLong={defaultLong}
         googleMapProps={googleMapProps}
         onNormalClick={onNormalClick}
+        GoogleMapApiKey={GoogleMapApiKey}
       >
         {/* <AppMapRenderMarkers markers={markers} /> */}
         {/* {polygonCoordinates && polygonCoordinates.length > 0 && (

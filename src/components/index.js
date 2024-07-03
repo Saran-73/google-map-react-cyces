@@ -1,2 +1,2 @@
 import AppGoogleMap from "./AppGoogleMap";
-export default { AppGoogleMap };
+export default AppGoogleMap;
