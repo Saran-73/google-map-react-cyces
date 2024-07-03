@@ -1,7 +1,7 @@
 import  { memo } from 'react'
 import { GoogleMap, GoogleMapApiLoader } from 'react-google-map-wrapper'
 import { Suspense } from 'react'
-import AppLoader from '@/app/components/elements/AppLoader'
+
 
 
 
